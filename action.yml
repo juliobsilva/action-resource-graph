@@ -1,0 +1,21 @@
+name: 'Azure Resource Graph Query'
+description: 'Query Azure Resource Graph to find the subscription of a given resource'
+inputs:
+  resource_name:
+    description: 'Nome do recurso'
+    required: true
+  resource_type:
+    description: 'Tipo do recurso'
+    required: true
+outputs:
+  id:
+    description: 'ID do recurso'
+  name:
+    description: 'Nome do recurso'
+  type:
+    description: 'Tipo do recurso'
+  subscription_id:
+    description: 'ID da subscription'
+runs:
+  using: 'node20'
+  main: 'index.js'
