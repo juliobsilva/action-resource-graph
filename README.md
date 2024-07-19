@@ -51,7 +51,7 @@ jobs:
         resource_type: "Microsoft.Storage/storageAccounts"
 ```
 
-## Example usage in workflow
+## Example usage in workflow Accessing outputs
 
 ```yaml
 name: Azure Resource Graph StorageAccounts
