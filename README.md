@@ -1,13 +1,13 @@
 # action-resource-graph
 
-Essa action ultizado o **Azure Resource Graph Explorer** recebe o nome e o tipo do recurso no azure e retorna o id do recurso, name, type e subscription_id aonde este recurso esta provisionado.
+Essa action recebe o nome e o tipo do recurso do Azure e retorna o **id** do recurso, **name**, **type** e **subscription_id** aonde este recurso esta provisionado. ultilizando o **Azure Resource Graph Explorer** para buscar as informações.
 
 ## Inputs
 
 ### `resource_name`
 ### `resource_type`
 
-**Required** .
+**Required** os parametros `"resource_name"` e `"resource_type"`.
 
 ## Outputs
 
