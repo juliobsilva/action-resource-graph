@@ -2,12 +2,10 @@
 
 Essa action GitHub recebe o nome e o tipo do recurso do Azure e retorna o `id` do recurso, `name`, `type` e `subscription_id` onde este recurso esta provisionado. ultilizando o `Azure Resource Graph Explorer` para buscar as informações.
 
-## Inputs
+## Inputs **Required**
 
 ### `resource_name`
 ### `resource_type`
-
-**Required** os parametros `"resource_name"` e `"resource_type"`.
 
 ## Outputs
 
